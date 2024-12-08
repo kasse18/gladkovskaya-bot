@@ -8,11 +8,6 @@ start_kb = ReplyKeyboardMarkup(keyboard=[
         KeyboardButton(
             text='Теория'
         )
-    ],
-    [
-        KeyboardButton(
-            text='Таблица лидеров'
-        )
     ]
 ], resize_keyboard=True, one_time_keyboard=True, input_field_placeholder="Выберите действие")
 
